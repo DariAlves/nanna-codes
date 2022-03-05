@@ -1,0 +1,81 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #c0b8a5;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 18px;
+}
+
+.container {
+  min-width: 360px;
+  background: #468a9f;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  background-color: #c0b8a5;
+  border: 0;
+  border-radius: 5px;
+  color: #468a9f;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+input[type='text'] {
+  margin-top: 25px;
+}
+
+.content div {
+  margin: 20px 0 40px;
+}
+
+.content div input {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  padding: 5px 0;
+}
+
+.content div input:focus,
+.content div input:valid {
+  color: #fff;
+  font-size: 16px;
+}
+
+p {
+  margin-top: 35px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*
+    Todo
+  
+    [] Limpar o código CSS e HTML
+  */
